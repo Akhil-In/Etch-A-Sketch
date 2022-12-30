@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Etch-A-Sketch</title>
+    <link rel="stylesheet"  href="style.css" type="text/css">
+    <script src="app.js" charset="UTF-8" type="text/javascript" defer></script>
+    <script src="https://kit.fontawesome.com/7ab010600e.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="nav"><i class="fa-duotone fa-grid-2-plus"></i>
+        <i class="fa-solid fa-palette fa-2x"></i>
+        Eitch A Sketch
+        <i class="fa-solid fa-paintbrush fa-1x"></i>
+    </div>
+
+    <div class="secondContainer">
+
+        <div class="left">
+            <h3>Number of Grids</h3>
+            <div class="mini-grid">
+
+            </div>
+
+            <span class="btn-grad" title="click to Add Grids"><i class="fa-solid fa-plus fa-2x"></i></span>
+            <!-- <button class="remove">Remove</button> -->
+            <i class="fa-solid fa-trash fa-2x remove btn-grad"></i>
+        </div>
+
+        <div class="sketch">
+            <div class="toolsContainer">
+                <button class="btn pencilBtn"><i class="fa-solid fa-pencil fa-3x"></i></button>
+                <button class="btn eraseBtn"><i class="fa-solid fa-eraser fa-3x"></i></button>
+                <!-- <button class="btn"><i class="fa-solid fa-palette fa-3x"></i></button> -->
+
+                <input type="color" id="colorPicker" name="color-picker" value="#ff0000">
+                <div class="btn randomBtn">
+                    <i class="fa-solid fa-pencil fa-2x P" style="padding: 4px;"></i>
+                </div>
+                <button class="btn gridBtn"><i class="fa-sharp fa-solid fa-border-all fa-3x"></i></button>
+            </div>
+
+        </div>
+
+
+
+    </div>
+
+
+</body>
+
+</html>
